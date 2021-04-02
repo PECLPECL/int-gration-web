@@ -3290,10 +3290,51 @@ h4 {
   border-radius: 5px;
 }
 
-/* line 74, ../../Documents/cours/cours 3ème année/intégration web/mds_b3_web_integration-main SASS/sass/_style.scss */
-.bg-primary {
+/* line 77, ../../Documents/cours/cours 3ème année/intégration web/mds_b3_web_integration-main SASS/sass/_style.scss */
+.bg--primary {
   background-color: chartreuse;
-  border: solid 2px #4c9900;
+  border: solid 2px #77f000;
 }
+
+/* line 77, ../../Documents/cours/cours 3ème année/intégration web/mds_b3_web_integration-main SASS/sass/_style.scss */
+.bg--success {
+  background-color: chartreuse;
+  border: solid 2px #77f000;
+}
+
+/* line 77, ../../Documents/cours/cours 3ème année/intégration web/mds_b3_web_integration-main SASS/sass/_style.scss */
+.bg--info {
+  background-color: chartreuse;
+  border: solid 2px #77f000;
+}
+
+/* line 77, ../../Documents/cours/cours 3ème année/intégration web/mds_b3_web_integration-main SASS/sass/_style.scss */
+.bg--warning {
+  background-color: chartreuse;
+  border: solid 2px #77f000;
+}
+
+/* line 77, ../../Documents/cours/cours 3ème année/intégration web/mds_b3_web_integration-main SASS/sass/_style.scss */
+.bg--danger {
+  background-color: chartreuse;
+  border: solid 2px #77f000;
+}
+
+/* line 77, ../../Documents/cours/cours 3ème année/intégration web/mds_b3_web_integration-main SASS/sass/_style.scss */
+.bg--inverse {
+  background-color: chartreuse;
+  border: solid 2px #77f000;
+}
+
+/* line 77, ../../Documents/cours/cours 3ème année/intégration web/mds_b3_web_integration-main SASS/sass/_style.scss */
+.bg--ghost {
+  background-color: chartreuse;
+  border: solid 2px #77f000;
+}
+
+/* .bg-primary{
+    background-color: chartreuse;
+    border: solid 2px darken($color: chartreuse, $amount: 20);
+  }*/
 
 /*# sourceMappingURL=knacss.css.map */

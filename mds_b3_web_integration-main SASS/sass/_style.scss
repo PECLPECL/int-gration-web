@@ -71,7 +71,18 @@ header{
     @include btn--round;
   }
 
-  .bg-primary{
+
+  .bg {
+    @each $name, $background-color, $color, $border in $variants-list {
+      &--#{$name} {
+        background-color: chartreuse;
+        border: solid 2px darken($color: chartreuse, $amount: 3);
+      }
+    }
+  }
+
+
+ /* .bg-primary{
     background-color: chartreuse;
     border: solid 2px darken($color: chartreuse, $amount: 20);
-  }
+  }*/
