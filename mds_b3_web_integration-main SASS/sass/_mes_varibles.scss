@@ -1,0 +1,18 @@
+$fontfamily: arial, helvetica, sans-serif;
+
+@mixin bg-primary {
+    background-color: chartreuse;
+}
+
+@mixin bg-warning {
+    background-color: rgb(207, 22, 31);
+}
+
+@mixin border-radius {
+    border-radius: 5px;
+}
+
+@mixin btn--round {
+    @include button;
+    @include border-radius;
+}

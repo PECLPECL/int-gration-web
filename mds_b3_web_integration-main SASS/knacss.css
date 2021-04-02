@@ -3211,6 +3211,11 @@ button:focus {
 }
 
 /* line 1, ../../Documents/cours/cours 3ème année/intégration web/mds_b3_web_integration-main SASS/sass/_style.scss */
+body {
+  font-family: arial, helvetica, sans-serif;
+}
+
+/* line 5, ../../Documents/cours/cours 3ème année/intégration web/mds_b3_web_integration-main SASS/sass/_style.scss */
 header {
   height: 10vh;
   background-color: #dfdfdd;
@@ -3218,7 +3223,7 @@ header {
   align-items: center;
 }
 
-/* line 9, ../../Documents/cours/cours 3ème année/intégration web/mds_b3_web_integration-main SASS/sass/_style.scss */
+/* line 13, ../../Documents/cours/cours 3ème année/intégration web/mds_b3_web_integration-main SASS/sass/_style.scss */
 .pp {
   height: 50px;
   width: 50px;
@@ -3227,7 +3232,7 @@ header {
   background-color: #bdbec0;
 }
 
-/* line 18, ../../Documents/cours/cours 3ème année/intégration web/mds_b3_web_integration-main SASS/sass/_style.scss */
+/* line 22, ../../Documents/cours/cours 3ème année/intégration web/mds_b3_web_integration-main SASS/sass/_style.scss */
 nav {
   width: 25%;
   display: flex;
@@ -3235,7 +3240,7 @@ nav {
   justify-content: space-between;
 }
 
-/* line 25, ../../Documents/cours/cours 3ème année/intégration web/mds_b3_web_integration-main SASS/sass/_style.scss */
+/* line 29, ../../Documents/cours/cours 3ème année/intégration web/mds_b3_web_integration-main SASS/sass/_style.scss */
 .lien {
   height: 30%;
   width: 30%;
@@ -3243,23 +3248,23 @@ nav {
   border-radius: 5px;
 }
 
-/* line 32, ../../Documents/cours/cours 3ème année/intégration web/mds_b3_web_integration-main SASS/sass/_style.scss */
+/* line 36, ../../Documents/cours/cours 3ème année/intégration web/mds_b3_web_integration-main SASS/sass/_style.scss */
 .bgb {
   background-color: #dfdfdd;
 }
 
-/* line 36, ../../Documents/cours/cours 3ème année/intégration web/mds_b3_web_integration-main SASS/sass/_style.scss */
+/* line 40, ../../Documents/cours/cours 3ème année/intégration web/mds_b3_web_integration-main SASS/sass/_style.scss */
 h3 {
   background-color: #bdbec0;
   width: 80%;
 }
 
-/* line 41, ../../Documents/cours/cours 3ème année/intégration web/mds_b3_web_integration-main SASS/sass/_style.scss */
+/* line 45, ../../Documents/cours/cours 3ème année/intégration web/mds_b3_web_integration-main SASS/sass/_style.scss */
 h4 {
   background-color: #bdbec0;
 }
 
-/* line 47, ../../Documents/cours/cours 3ème année/intégration web/mds_b3_web_integration-main SASS/sass/_style.scss */
+/* line 51, ../../Documents/cours/cours 3ème année/intégration web/mds_b3_web_integration-main SASS/sass/_style.scss */
 .container img {
   width: 2.5em;
   height: 2.5em;
@@ -3267,7 +3272,7 @@ h4 {
   margin-top: 5px;
 }
 
-/* line 54, ../../Documents/cours/cours 3ème année/intégration web/mds_b3_web_integration-main SASS/sass/_style.scss */
+/* line 58, ../../Documents/cours/cours 3ème année/intégration web/mds_b3_web_integration-main SASS/sass/_style.scss */
 .container {
   width: 100%;
   display: flex;
