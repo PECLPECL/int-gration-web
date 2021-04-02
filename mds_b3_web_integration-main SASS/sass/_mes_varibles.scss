@@ -1,18 +1,16 @@
 $fontfamily: Comic Sans MS,arial, helvetica, sans-serif;
 
+$font-family-base: $fontfamily;
+
 @mixin bg-primary {
-    background-color: chartreuse;
+    
 }
 
 @mixin bg-warning {
     background-color: rgb(207, 22, 31);
 }
 
-@mixin border-radius {
-    border-radius: 5px;
-}
-
 @mixin btn--round {
-    @include button;
-    @include border-radius;
+    @extend %btn;
+    border-radius: 5px;;
 }
