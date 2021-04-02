@@ -3212,7 +3212,7 @@ button:focus {
 
 /* line 1, ../../Documents/cours/cours 3ème année/intégration web/mds_b3_web_integration-main SASS/sass/_style.scss */
 body {
-  font-family: arial, helvetica, sans-serif;
+  font-family: Comic Sans MS, arial, helvetica, sans-serif;
 }
 
 /* line 5, ../../Documents/cours/cours 3ème année/intégration web/mds_b3_web_integration-main SASS/sass/_style.scss */
@@ -3277,6 +3277,22 @@ h4 {
   width: 100%;
   display: flex;
   justify-content: space-around;
+}
+
+/* line 64, ../../Documents/cours/cours 3ème année/intégration web/mds_b3_web_integration-main SASS/sass/_style.scss */
+article p {
+  background-color: chartreuse;
+}
+
+/* line 68, ../../Documents/cours/cours 3ème année/intégration web/mds_b3_web_integration-main SASS/sass/_style.scss */
+.truc {
+  height: 100px;
+  background-color: chartreuse;
+}
+
+/* line 73, ../../Documents/cours/cours 3ème année/intégration web/mds_b3_web_integration-main SASS/sass/_style.scss */
+.btn--round {
+  border-radius: 5px;
 }
 
 /*# sourceMappingURL=knacss.css.map */

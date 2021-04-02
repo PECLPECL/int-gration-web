@@ -60,3 +60,17 @@ header{
     display: flex;
     justify-content: space-around;
   }
+
+  article p{
+    @include bg-primary;
+  }
+
+  .truc{
+    height: 100px;
+    @include bg-primary;
+  }
+
+  .btn--round{
+    border-radius: 5px;
+    @include btn;
+  }
